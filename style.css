@@ -1,0 +1,316 @@
+*{
+    margin: ;
+    padding: ;
+    ​font-family: "Lucida Sans", sans-serif;
+    box-sizing: border-box;
+
+}
+
+.logo {
+    text-align: center;
+    margin:0 auto ;
+    padding: 20px 0px;
+}
+.nav-links{
+    background-color: #240046;
+    text-align: center;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+    position:relative ;
+}
+.nav-links ul li a {
+color: white;
+text-decoration: none;
+font-size: 14px;
+
+}
+.banner{
+    width: 100%;
+    min-height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("ban.jfif");
+    /* background: url(./ban.jfif )no-repeat */
+    background-size: cover;
+    position: relative;
+}
+.text-block {
+    width: 80%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50% ,-50%);
+}
+    .text-block h1 {
+        font-size: 60px;
+    }
+    .text-block p {
+        font-size: 16px;
+    }
+    .btn-primary {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        border: 2px solid white;
+        padding: 12px 40px;
+        font-size: 16px;
+        background: transparent ;
+        position: relative;
+        margin: 10px 0px 0px 0px;
+[]
+    }
+    .btn-primary:hover {
+        border: 2px solid #a49fa8;
+        background: #a669df;
+        color: black;
+        transition: 0.5s;
+    }
+
+    .btn-secondary {
+        display: inline-block;
+        text-decoration: none;
+        color: #240046;
+        border: 2px solid #240046;
+        padding: 12px 40px;
+        font-size: 16px;
+        background: transparent ;
+        position: relative;
+        margin: 10px 0px 0px 0px;
+[]
+    }
+    .btn-secondary:hover {
+        border: 2px solid #a49fa8;
+        background: #240046;
+        color: white;
+        transition: 0.5s;
+    }
+    
+
+    }
+    @media(max-width:768px) {
+        .fas-bars {
+            position: absolute;
+            left: 10px;
+            top: 28px;
+            font-size: 22px;
+        }
+        .text-block h1 {
+            font: size 36px;
+        }
+        .nav-links ul li {
+            display: block;
+        }
+        .nav-links {
+            position: absolute;
+            background: #a669df;
+            height: 100vh;
+            width: 200px;
+            text-align: left;
+            z-index: 2;
+            top: 0;
+            /* left:-200px ; */
+            transition: 1s;
+
+
+        }
+
+    }
+.nav-links.fas {
+    display: block;
+    color: rgb(196, 82, 82);
+    margin:10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* grid system */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.row::after {
+    content: ;
+    clear: both;
+    display: table;
+
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+
+}
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+@media(max-width:768px) {
+    .container{
+        width: 750px;
+    }
+
+}
+@media(max-width:992px) {
+    .container{
+        width: 970;
+    }
+
+}
+@media(max-width:1200px) {
+    .container{
+        width: 1170px;
+        
+    }
+
+}
+
+/* grid system */
+
+.heading{
+    text-align: center;
+    padding: 40px 0px 20px 0px ;
+
+}
+.text-centre {
+    text-align: center;
+}
+
+.ad-banner {
+    background-color: black;
+    text-align: center;
+}
+
+
+.image-responsive {
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #240046;
+    color: rgb(250, 243, 248);
+    padding: 80 0px;
+    clear: both;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 10px 16px;
+    position:relative ;
+}
+footer h3 {
+      padding-bottom: 20px;
+      
+      
+}
+.copyright {
+    background: rgb(141, 11, 119);
+    padding: 20px;
+    color: rgb(15, 198, 73);
+    text-align: center;
+
+}
+
+.about-banner {
+    width: 100%;
+    min-height: 30vh;
+    background-image: url("ab.jfif");
+    background-size: cover;
+    position: relative;
+    
+}
+
+.p40{
+    padding: 40px 0px;
+}
+.sidebar {
+    border: 1px black solid;
+    padding: 50px;
+}
+
+.block-item {
+    padding: 60px;
+}
+.product-name {
+text-decoration: underline;
+font-size: 20px;
+font-weight: bold;
+}
+
+.price {
+font-size: 28px;
+color: #240046;
+background: transparent;
+}
+
+
+
+.btn-shop {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid #a669df;
+    padding: 12px 40px;
+    font-size: 16px;
+    background: #a669df ;
+    position: relative;
+    margin: 10px 0px 0px 0px;
+    border-radius: 5px;
+
+}
+.btn-shop:hover {
+    border: 2px solid #a669df;
+    background:white;
+    color:#a669df;
+    transition: 0.5s;
+}
+
+.product-card:hover { 
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-bottom: 20px;
+
+}
+
+input [type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    
+}
+.textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+input [ type=submit] {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid #a669df;
+    padding: 12px 40px;
+    font-size: 16px;
+    background: #a669df ;
+    position: relative;
+    margin: 10px 0px 0px 0px;
+    border-radius: 5px;
+
+}
